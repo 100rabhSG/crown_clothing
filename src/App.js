@@ -2,6 +2,8 @@ import { Routes, Route, Outlet } from 'react-router-dom';
 
 import Home from './Routes/Home/Home.component';
 import Navigation from './Routes/Navigation/Navigation.component';
+import SignIn from './Routes/SignIn/sign-in.component';
+
 import './categories.styles.scss'
 
 
@@ -18,6 +20,7 @@ const App = () => {
       <Route path='/' element={<Navigation />} >
         <Route index element={<Home />} />
         <Route path='shop' element={<Shop />} />
+        <Route path='sign-in' element={<SignIn />} />
       </Route>
     </Routes>
   )
