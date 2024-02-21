@@ -3,16 +3,10 @@ import { Routes, Route, Outlet } from 'react-router-dom';
 import Home from './Routes/Home/Home.component';
 import Navigation from './Routes/Navigation/Navigation.component';
 import Authentication from './Routes/Authentication/authentication.component';
+import Shop from './Routes/shop/shop.component';
 
 import './categories.styles.scss'
 
-
-
-const  Shop = () => {
-  return(
-    <h1> I am shop component</h1>
-  )
-}
 
 const App = () => {
   return(
